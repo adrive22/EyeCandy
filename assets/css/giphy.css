@@ -1,0 +1,138 @@
+body{
+	background-color: #80bfff;
+}
+
+h1{
+	width:100%;
+	text-align: center;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+
+.searchBox{
+	color:black;
+}
+
+p{
+	width:100%;
+	text-align:center;
+	margin-bottom:none;
+	color:#f2f2f2;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:15px;
+}	
+
+.buttons-view{
+	width:80%;
+	margin-left:10%;
+}
+
+
+.visuals-btn.ui.inverted.grey.button{
+	margin-right:3%;
+	margin-left:3%;
+	
+}
+
+
+.line{
+	width: 100%;
+	height: 1px;
+	margin-top:2%;
+	margin-bottom:2%;
+	border-bottom: 5px solid white;
+	opacity: .5;
+}
+
+.searchAndAdd{
+	float:left;
+	margin: 10px;
+	margin-left:5%;
+	color:white;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.addedBtns{
+	float:left;
+	position:relative;
+}
+
+
+
+.gifText{
+	display:none;
+	width:100%;
+	text-align: center;
+	position:absolute;
+	margin-top:8%;
+	color:white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:15px;
+
+}
+.gifContainer{
+	width:70%;
+	margin-left: 15%;
+	float:left;
+	margin-top:4%;
+}
+
+.ui.medium.rounded.image{
+	width:120px;
+	height:120px;
+	float:left;
+	margin:10px;
+	
+}
+
+
+@media only all 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) { 
+	.ui.medium.rounded.image{
+		width:175px;
+		height:175px;
+		margin:20px;
+		
+	}
+
+	.gifContainer{
+		width:70%;
+		margin-left: 17%;
+		float:left;
+		margin-top:4%;
+	}
+
+	.visuals-btn.ui.inverted.grey.button{
+		margin:1.5%;
+		margin-top:7px;
+	}
+	
+}
+
+@media only all
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) { 
+	.visuals-btn.ui.inverted.grey.button{
+		margin:1.7%;
+		margin-top:7px;
+	}
+
+	.ui.medium.rounded.image{
+		width:150px;
+		height:150px;
+		margin:20px;
+		
+	}
+
+	.gifContainer{
+		width:80%;
+		margin-left: 12%;
+		float:left;
+		margin-top:4%;
+	}
+}
+
